@@ -19,7 +19,7 @@ body {
 }
 
 .card {
-    height: 400px;
+    height: 350px;
     width: 250px;
     border-radius: 10px;
     padding: 25px;
@@ -36,17 +36,21 @@ body {
     margin-bottom: 10px;
 }
 
-.card h5 {
+.card h4 {
     font-weight: 500;
+}
+
+.card h5 {
+    margin-top: 20px;
 }
 
 .btn-container {
     width: 100%;
-    height: 37%;
+    height: 24%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    gap: 40px;
+    gap: 30px;
 }
 
 .btn-container button {
@@ -56,14 +60,15 @@ body {
     border: none;
     color: #fff;
     font-size: 1.1vw;
+    font-weight: 600;
+    cursor: pointer;
 }
 
-.btn-container button:nth-child(1) {
-    background-color: #24a0eda1;
-
+.btn-container .add-btn {
+    background-color: #24a0ed;
 }
 
-.btn-container button:nth-child(2) {
-    background-color: #d11a29a1;
+.btn-container .block-btn {
+    background-color: red;
 
 }
